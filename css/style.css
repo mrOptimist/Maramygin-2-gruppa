@@ -1,0 +1,125 @@
+h2 {
+    color: #6A5324;
+}
+
+/* Head */
+header {
+    background-image: url("http://appo.ru/img/f_49aba129b301d.jpg");
+    padding: 20px 0;
+}
+
+.top-text {
+    font: 700 2em "Trebuchet MS",Arial,sans-serif;
+    display: block;
+    text-shadow: 1px 1px 1px black, 0 0 1em #E2DBDB;
+    font-size: 2em;
+    margin-left: 255px;
+    height: 68px;
+}
+
+.text-1 {
+    color: #ff0000;
+}
+
+.text-2 {
+    color: #ffd700;
+}
+
+/* Top horizontal menu */
+nav {
+    margin-left: 180px;
+}
+
+.top-menu {
+    background-color: rgb(33, 110, 184);
+    height: 40px;
+}
+
+.top-menu ul {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 17px;
+    margin: 0;
+    text-align: center;
+}
+
+.top-menu li:hover {
+    background: rgb(96, 145, 172);
+}
+
+.top-menu a {
+    display : block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-menu li:nth-child(1) {
+    width: 15%;
+}
+
+.top-menu li:nth-child(2) {
+    width: 25%;
+}
+
+.top-menu li:nth-child(3) {
+    width: 17%;
+}
+
+.top-menu li:nth-child(4) {
+    width: 25%;
+}
+
+.content {
+
+    width: 70%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+/* Left menu */
+.left-menu {
+    width: 27%;
+    float: left;
+    height: 300px;
+}
+
+.left-menu ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top:25px; /*делаем отступ сверху*/
+}
+
+.left-menu li {
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font: 700 14px Arial;
+    margin-top: 5px;
+    background-color: #fbf4f4;
+}
+
+.left-menu a {
+
+    text-decoration: none;
+    color: #494949;
+}
+
+.left-menu a:hover {
+    color: #854949;
+}
+
+/* Content */
+.right-text {
+    margin-left: 300px;
+    text-align: justify;
+    font: 14px Arial;
+
+}
